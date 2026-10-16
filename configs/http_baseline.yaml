@@ -1,0 +1,17 @@
+# Example only. No real GPU experiment has been run with this configuration.
+backend: http
+endpoint: http://127.0.0.1:8000/v1/chat/completions
+model: REPLACE_WITH_SERVED_MODEL
+request_count: 6
+concurrency: 1
+prompt_words: 32
+max_tokens: 16
+timeout_s: 60
+warmup_requests: 1
+repetitions: 3
+usage_token_scope: unknown
+cache_state: unknown
+model_revision: null
+tokenizer_revision: null
+engine_version: null
+image_digest: null

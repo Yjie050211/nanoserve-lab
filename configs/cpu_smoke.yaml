@@ -1,0 +1,8 @@
+backend: fixture
+request_count: 6
+concurrency: 2
+prompt_words: 32
+max_tokens: 16
+timeout_s: 5
+repetitions: 3
+fixture_delay_s: 0.001
